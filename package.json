@@ -1,0 +1,20 @@
+{
+  "name": "tdd-project",
+  "version": "1.0.0",
+  "description": "TDD learning Ascii game with node and JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-print": "jest --ci --no-colors --coverage > test-log.txt 2>&1",
+    "test-coverage": "jest --coverage",
+    "test-watch": "jest --coverage --watchAll "
+  },
+  "author": "Toni Seppalainen",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^22.1.4"
+  },
+  "jest": {
+    "verbose": true
+  }
+}
