@@ -4,9 +4,9 @@
   "description": "TDD learning Ascii game with node and JS.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test-print": "jest --ci --no-colors --coverage > test-log.txt 2>&1",
-    "test-coverage": "jest --coverage",
+    "start": "node index.js",
+    "test": "jest --coverage",
+    "test-log": "jest --ci --no-colors --coverage > test-log.txt 2>&1",
     "test-watch": "jest --coverage --watchAll "
   },
   "author": "Toni Seppalainen",
